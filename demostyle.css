@@ -1,0 +1,88 @@
+body{margin:0px;
+    font-family:'LiGothic','Microsoft Yahei'
+}
+/*nav 樣式設定*/
+nav{
+    background: rgba(153, 50, 204, 0.355);
+    display:flex;
+    font-size:35px;
+    font-family:'LiGothic','Microsoft Yahei';
+    justify-content:center;
+    text-align: center;
+
+
+}
+nav>.logo{
+    /* flex:none:沒有彈性，固定尺寸*/
+    margin-left:auto;
+    flex:none;
+    border-radius: 100%;
+  
+}
+nav>.menu{
+    /* flex:auto:盡量把容器的空間填滿*/
+    flex:none;
+    width: 300px;
+}
+.menucenter{
+
+    line-height: 85px;
+    color: rgb(253, 253, 15);
+
+    
+}
+nav>.user{
+    /* flex:none:沒有彈性，固定尺寸*/
+    flex: none;
+    font-size:20px;
+    margin-left:130px;
+    width: 400px;
+
+    text-align:center;
+    color: rgb(253, 253, 15);
+}
+
+
+.content{
+    width:1000px;
+    /* margin-left;margin-right:auto :自動調整區塊置中 */
+    margin-left:auto;
+    margin-right:auto;
+}
+.titlebox{
+    /*width 文字框的寬度，非box整體寬度*/
+    width:500px;
+    padding:10px;
+    margin:10px;
+    background: #3cdfbfd7;
+    border:5px #3c4fdfd1 outset;
+    border-radius: 20px;
+    margin-left:auto;
+    margin-right:auto;
+    /*inline:行元素(ex:span)，不會跨行，由左至右接著內容；block:區塊(ex:div)，一個div，就算你限制width，但還是會占用一整行，接到下一個div時會"自動換下一行"*/
+    /*display:inline-block:在blcok區塊有限制大小的情況下，可以像inline一樣，由左至右並排，不會跨行，非常貪心 */
+    display:inline-blcok;
+    position:relative;
+    top:25px;
+    vertical-align:top;
+    text-align:center;
+    line-height: 40px;
+}
+.detail{
+    width:1000px;
+    padding:10px;
+    margin:10px;
+    background:rgba(0, 0, 0, 0.834);
+    color:rgba(250, 235, 215, 0.981);
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    text-align:start;
+    line-height: 40px;
+    border:5px rgb(250, 235, 215) outset;
+    border-radius: 5%;
+}
+.title{
+    font-weight:bold;
+    text-align:center;
+}
