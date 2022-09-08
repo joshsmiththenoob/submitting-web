@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>WeHelp申請書</title>
+    <link  
+    rel="stylesheet" 
+    type="text/css" 
+    href="demostyle.css"
+    />
+    <link rel="icon" href="https://lh3.googleusercontent.com/drive-viewer/AJc5JmT77y8WP-vHw6WpqFPdN9KlNuEa5fXuF_RlP_b9daPXRGhXTpp3SMlWRLlaj-OmvwswYQ0ppqA=w1919-h880">
+
+</head>
+<body style="background-image:url(https://lh3.googleusercontent.com/drive-viewer/AJc5JmTveJoZiz7Ouy8rRiSxHT0MIlgVOvSbIr4cmB9262TekHeepCaEYlslzL7nQW4JUHtt9JIefMc=w1919-h950);background-size:cover;background-position:center;background-repeat: no-repeat;background-attachment:fixed">
+    <nav >
+        <div class="logo"><img src="https://lh3.googleusercontent.com/drive-viewer/AJc5JmTDZlUyQ0V5-foxIgdShy0HEMAZsLJ8BiOir2F-CC8_-zexCQE4cuyzzCmlnRhXgrvxzECTx-4=w731-h880" width="100px" ></img></div>
+        <div class="menu"><div class="menucenter">WeHelp申請書 </div></div>
+        <div class="user">光電工程系 27歲</br>傅騰緯</br>e-mail:joshsmith0223029@gmail.com</div>
+    </nav>
+    <!-- Flex 如何解決:並排(切欄)、水平對齊、垂直對齊的問題 -->
+   <div class="content">
+    <div class="titlebox">
+        <div class="title">兩百字的自我介紹</div>
+    </div>
+    <div class="detail">傅騰緯，111年2月畢業於北科大光電研究所，主要研究如何以Matlab程式有效地模擬光的多次繞射，最終在雙透鏡系統上模擬出光學影像；該題目使用的技術包括Matlab、傅立葉訊號分析、繞射光學以及Rsoft(波動光學模擬軟體)。</br></br>特質為熱心助人，由於對Matlab操作較熟悉，同學、學弟只要有相關問題，都會將我所知的交與他們，也因此，我很崇拜那些願意在公開社群上無私奉獻的教育者們，包括彭彭老師。</div>
+    <div class="titlebox">
+        <div class="title">為了成為軟體工程師，曾做過什麼努力</div>
+    </div>
+    <div class="detail">1. 之前有在Twitch實況，為了讓自己的聊天室增添個人特色，藉由網路資源(W3school、Wibibi)學習一些CSS以及HTML</br><div style="text-align:center"><iframe src="https://drive.google.com/file/d/10AFLscAOiymSX2nEl1yhLiPUj_49ljSi/preview" width="320" height="240" allow="autoplay"></iframe></div>2. 於7月看彭彭老師的YouTube頻道學習基礎Python語法(學習到了初階網路爬蟲部分) </br></br>3. 8月與研究所同學開一個讀書會，本人以有興趣的題目"Aimbot自瞄系統"為主，目前努力研習Tensorflow、機器學習的神經網路概論為主。</div>
+    <div class="titlebox">
+        <div class="title">如果參與這個計劃，會怎麼安排學習時間?</div>
+    </div>
+    <div class="detail">如參與計畫，會以就職身分加入，作息調整與一般上班族一樣，並將所有心力放在基礎程式語言的學習上，包括晚上吃完晚餐後。</div>
+    <div class="titlebox">
+        <div class="title">是否有想要加入的軟體公司?為什麼想加入該公司?</div>
+    </div>
+    <div class="detail">Google，不僅僅是公司文化、待遇好，Google glass研發所需技術包括光學(顯示器、相機)以及軟體(影像辨識、應用程式開發)，是非常有展望的產品，期望目標是希望能將軟體與自身所學結合，提升自己並開闊眼界。</div>
+    <div class="titlebox">
+        <div class="title">請描述一件你曾經遇到最困難的事情，如何克服?</div>
+    </div>
+    <div class="detail">最困難的事情：與自己對抗。研究期間就讀了四年，原因是更換了實驗室，與第一位教授多次會談後理念不合，毅然決然離開實驗室，卻因此懷疑自己的能力，甚至去輔導室大哭一場。但，在母親、第二位教授以及新實驗室同學們的鼓勵下，讓自己隨時提醒自己"我很不錯"，想著別人對自身的評價如何實在是傷透腦筋，不如以自己對自身的評價隨時檢討自己。隨著這個信念，就算這半年期間在光電產業上沒找到理想的工作，但依然會以自身角度檢討自己，卻不自卑，看扁自己，另尋出路也是一種選擇。個人認為，最困難的事，是與自己對抗，如果能以上述的信念壯大自己，相信其他的事情也可以從容解決。</div>
+    <div class="titlebox">
+        <div class="title">關於這份申請網頁，請分享一個你開發時的技術心得</div>
+    </div>
+    <div class="detail">這份申請網頁不只讓我回憶了兩年前實況時所使用的CSS技巧，也思考了一些排版的技巧(ex:子標題與內容的對話框些許重疊:使用上了position:relative;top:...)
+    </br></br>
+        <div style="text-align: center">
+            <img src="https://lh3.googleusercontent.com/drive-viewer/AJc5JmRKDkTxdSnc_Vah-V7O8ME3oa_aWaqp2sD8xNeqYfyjdTzfuxr9HJRwbPux7vPA0jELlV8E3yU=w1919-h950" width="500px" ></img>
+        </div>
+    在插入Google雲端上的圖片、影片時，需要在雲端上開啟該檔案，圖片可在新視窗中開啟，並使用F12(開發人員工具)尋找關鍵字:img找到圖片的src，而影片也是在新視窗中開啟，然而可點擊嵌入項目直接複製包刮src的程式碼，即可在網頁嵌入影片以及調整大小。
+    </br></br>
+    <div style="text-align: center"> 
+        <iframe src="https://drive.google.com/file/d/1w8-jcfzCETNOgrZ_n_Od3G56Qjr78Ikt/preview" width="320" height="240" allow="autoplay" allowfullscreen></iframe>
+        <iframe src="https://drive.google.com/file/d/1sd7U4-BGv-TsTlbwjda-M2gKEJdVx11H/preview" width="320" height="240" allow="autoplay" allowfullscreen></iframe>  
+    </div>
+    </br>看到自己的程式碼變成美麗的外觀，從無到有慢慢地建立起屬於自己的網頁，真的非常有成就感，與Python、Matlab的資料處理來說是非常不同的體驗！  
+    </div>
+    <div class="titlebox">
+        <div class="title">其他想要對我們說的事情</div>
+    </div>
+    <div class="detail">
+        由於同學的推薦，我認識到了在Youtube教授Python的彭彭老師，簡短的影片、言簡意賅的講解出課程的精隨，並一步一步地實作給大家看，我相信只要有心學習的人一定可以有所收穫，當然，停下來獨立思考，並獨立做出課堂上的例子也是很重要的，這也是彭彭老師再三強調的觀念。 謝謝有像彭彭老師這樣子無私奉獻的教育者在這世界上，期許在轉職的路上，我也可以以我的能力去幫助那些有需要的人，就像你們一樣！
+    </div>
+   </div>
+</body>
